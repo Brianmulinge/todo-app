@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+main {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.input {
+  height: 30px;
+  border-radius: 4px;
+}
+.form {
+  display: flex;
+}
+.button {
+  border-radius: 4px;
+  height: 30px;
+  margin-left: 4px;
+}
+.singletodo {
+  display: flex;
+}
